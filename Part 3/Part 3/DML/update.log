@@ -1,0 +1,45 @@
+mysql> source update.sql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+Query OK, 17 rows affected (0.10 sec)
+
+Query OK, 4 rows affected (0.05 sec)
+
+Query OK, 1 row affected (0.03 sec)
+
+Query OK, 74 rows affected (0.01 sec)
+Records: 74  Duplicates: 0  Warnings: 0
+
+Query OK, 116 rows affected (19.15 sec)
+Records: 116  Duplicates: 0  Warnings: 0
+
+Query OK, 80 rows affected, 2 warnings (0.11 sec)
+Rows matched: 81  Changed: 80  Warnings: 2
+
+Query OK, 81 rows affected (0.04 sec)
+Rows matched: 81  Changed: 81  Warnings: 0
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+Query OK, 4 rows affected (0.03 sec)
+
+Query OK, 1 row affected (0.03 sec)
+
+Query OK, 6 rows affected (0.02 sec)
+Rows matched: 6  Changed: 6  Warnings: 0
+
+Query OK, 6 rows affected (0.02 sec)
+Rows matched: 6  Changed: 6  Warnings: 0
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 6 rows affected (0.02 sec)
+Records: 6  Duplicates: 0  Warnings: 0
+
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+

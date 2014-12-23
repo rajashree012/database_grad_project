@@ -1,0 +1,2 @@
+INSERT INTO  world_cup (Year, Host_Country, Winner, Runner_Up) VALUES (2010, "South Africa", "ES", "NL");
+INSERT INTO  world_cup (Year, Host_Country, Winner, Runner_Up) VALUES (2014, "Brazil", "DE", "AR");

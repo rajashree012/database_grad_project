@@ -1,0 +1,8 @@
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' estadio pocitos',1,'DE','WINNER','BR','DE',1,4,13,'July',2014);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' estadio parque central',2,'AR','WINNER','AR','NL',2,1,14,'July',2014);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' estadio centenario',3,'BR','WINNER','BR','NL',4,3,15,'July',2014);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' estadio parque central',4,'DE','PENALTY','AR','DE',3,5,16,'July',2014);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' stadio littoriale',1,'ES','WINNER','ZA','ES',0,1,14,'July',2010);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' stadio benito mussolini',2,'NL','WINNER','BR','NL',0,2,15,'July',2010);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' stadio luigi ferraris',3,'BR','PENALTY','BR','ZA',4,0,16,'July',2010);
+insert into matches (Stadium, Match_Number, Winner, Decision, Team_1, Team_2, Team_1_Score, Team_2_Score, Date_Day, Date_Month, Date_Year) values (' stadio giovanni berta',4,'ES','WINNER','ES','NL',4,2,17,'July',2010);

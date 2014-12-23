@@ -1,0 +1,38 @@
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "FW", "Russinho", "1987-09-25", 2, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "MF", "Rivaldo", "1988-01-02", 10, "Barcelona");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "MF", "Oreco", "1986-03-20", 8, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "GK", "Batatais", "1989-04-23", 2, "Fluminense");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "DF", "Marinho Chagas", "1989-10-18", 6, "Botafogo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "FW", "Roberto", "1986-05-07", 13, "Botafogo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "DF", "Jnior Baiano", "1986-02-18", 4, "Flamengo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("BR", "DF", "Hilderaldo Bellini", "1989-05-14", 2, "Vasco da Gama");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("DE", "DF", "Willy Busch", "1991-04-24", 26, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("DE", "GK", "Bodo Illgner", "1993-05-16", 1, "1. FC Köln");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("DE", "MF", "Mario Gtze", "1992-08-23", 19, "Flamengo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("DE", "FW", "KarlHeinz Riedle", "1986-06-19", 9, "Borussia Dortmund");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("DE", "MF", "Maurizio Gaudino", "1992-11-11", 15, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ZA", "DF", "Themba Mnguni", "1981-07-04", 2, "Mamelodi Sundowns");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ZA", "MF", "Surprise Moriri", "1988-06-18", 19, "Flamengo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ZA", "MF", "MacBeth Sibaya", "1983-02-19", 6, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ZA", "FW", "Brendan Augustine", "1987-09-25", 12, "LASK Linz");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ZA", "GK", "Moeneeb Josephs", "1988-04-14", 1, "Orlando Pirates (RSA)");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ES", "GK", "Juan Acua", "1987-05-27", 15, "Deportivo de La Coruña");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ES", "MF", "Rafael Martn Vzquez", "1988-11-16", 6, "Flamengo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ES", "DF", "Antonio Olmo", "1983-02-21", 16, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ES", "MF", "Ivn Helguera", "1989-06-01", 4, "Real Madrid");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("ES", "FW", "Pedro Uralde", "1985-10-12", 18, "Barcelona");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "FW", "Piet Keizer", "1985-04-13", 9, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "GK", "Stanley Menzo", "1989-05-18", 22, "Ajax");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "MF", "Puck van Heel", "1987-03-05", 8, "SC Feyenoord Rotterdam");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "DF", "Michael Reiziger", "1987-06-22", 2, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "MF", "Willem van Hanegem", "1989-11-06", 3, "SC Feyenoord");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "FW", "Eljero Elia", "1986-01-14", 17, "Flamengo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "DF", "Adrie van Kraay", "1989-08-03", 4, "PSV Eindhoven");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("NL", "FW", "Johnny Rep", "1990-02-23", 16, "SEC Bastia");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("AR", "DF", "Leandro Cufr", "1990-03-09", 17, "Flamengo");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("AR", "MF", "Jos Nehin", "1991-06-07", 6, "Sportivo Desamparados");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("AR", "FW", "Norberto Boggio", "1992-01-06", 18, "Santos");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("AR", "MF", "Juan Barbas", "1986-01-26", 3, "Racing");
+INSERT INTO player (Country_Code, Player_Role, Player_Name, DOB, Jersey_Number, Club) VALUES ("AR", "GK", "ngel Grippa", "1989-10-11", 17, "Club Sportivo Alsina");
+
+

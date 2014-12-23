@@ -1,0 +1,427 @@
+mysql> source query.sql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
++---------------------------+--------------+
+| Player_Name               | Country_Code |
++---------------------------+--------------+
+| Dani Alves                | BR           |
+| Fred                      | BR           |
+| Oscar                     | BR           |
+| Hernanes                  | BR           |
+| J                         | BR           |
+| Jefferson                 | BR           |
+| Jlio Csar                 | BR           |
+| Henrique                  | BR           |
+| David Luiz                | BR           |
+| Dante                     | BR           |
+| Hulk                      | BR           |
+| Marcelo                   | BR           |
+| Luiz Gustavo              | BR           |
+| Maicon                    | BR           |
+| Bernard                   | BR           |
+| Neymar                    | BR           |
+| Willian                   | BR           |
+| Victor                    | BR           |
+| Maxwell                   | BR           |
+| Fernandinho               | BR           |
+| Thiago Silva              | BR           |
+| Paulinho                  | BR           |
+| Ramires                   | BR           |
+| Jean Makoun               | CM           |
+| Henri Bedimo              | CM           |
+| Eyong Enoh                | CM           |
+| Fabrice Olinga            | CM           |
+| Vincent Aboubakar         | CM           |
+| Alex Song                 | CM           |
+| Jol Matip                 | CM           |
+| Charles Itandje           | CM           |
+| Dany Nounkeu              | CM           |
+| Aurlien Chedjou           | CM           |
+| Landry NGumo              | CM           |
+| Pierre Web                | CM           |
+| Loc Feudjou               | CM           |
+| Benjamin Moukandjo        | CM           |
+| Benot AssouEkotto         | CM           |
+| Cdric Djeugou             | CM           |
+| Maxim ChoupoMoting        | CM           |
+| Nicolas NKoulou           | CM           |
+| Sammy NDjock              | CM           |
+| Stphane Mbia              | CM           |
+| Edgar Salli               | CM           |
+| Allan Nyom                | CM           |
+| Samuel Etoo               | CM           |
+| Ivan Rakiti               | HR           |
+| ime Vrsaljko              | HR           |
+| Vedran orluka             | HR           |
+| Dejan Lovren              | HR           |
+| Ivan Moini                | HR           |
+| Domagoj Vida              | HR           |
+| Eduardo                   | HR           |
+| Ante Rebi                 | HR           |
+| Sammir                    | HR           |
+| Oliver Zelenika           | HR           |
+| Nikica Jelavi             | HR           |
+| Ivan Perii                | HR           |
+| Ognjen Vukojevi           | HR           |
+| Ivica Oli                 | HR           |
+| Stipe Pletikosa           | HR           |
+| Mario Manduki             | HR           |
+| Darijo Srna               | HR           |
+| Gordon Schildenfeld       | HR           |
+| Mateo Kovai               | HR           |
+| Marcelo Brozovi           | HR           |
+| Danijel Pranji            | HR           |
+| Luka Modri                | HR           |
+| Danijel Subai             | HR           |
+| Alfredo Talavera          | MX           |
+| Isac Brizuela             | MX           |
+| Hctor Moreno              | MX           |
+| Hctor Herrera             | MX           |
+| Andrs Guardado            | MX           |
+| Alan Pulido               | MX           |
+| Guillermo Ochoa           | MX           |
+| Giovani dos Santos        | MX           |
+| Miguel ngel Ponce         | MX           |
+| Jos Juan Vzquez           | MX           |
+| Marco Fabin               | MX           |
+| Javier Aquino             | MX           |
+| Francisco Javier Rodrguez | MX           |
+| Paul Aguilar              | MX           |
+| Miguel Layn               | MX           |
+| Javier Hernndez           | MX           |
+| Diego Reyes               | MX           |
+| Jos de Jess Corona        | MX           |
+| Oribe Peralta             | MX           |
+| Ral Jimnez                | MX           |
+| Carlos Salcido            | MX           |
+| Carlos Pea                | MX           |
+| Rafael Mrquez             | MX           |
++---------------------------+--------------+
+92 rows in set (0.00 sec)
+
++-----------------+-------------+
+| Player_Name     | Player_Role |
++-----------------+-------------+
+| Andrs Iniesta   | MF          |
+| Carles Puyol    | DF          |
+| Cesc Fbregas    | MF          |
+| Gerard Piqu     | DF          |
+| Jordi Alba      | DF          |
+| Luis Enrique    | MF          |
+| Pedro           | FW          |
+| Sergio Busquets | MF          |
+| Vctor Valds     | GK          |
+| Xavi            | MF          |
++-----------------+-------------+
+10 rows in set (0.00 sec)
+
++--------------+-----------+--------+--------+
+| Match_Number | Date_Year | Team_1 | Team_2 |
++--------------+-----------+--------+--------+
+|            4 |      1986 | AR     | KR     |
+|            5 |      2006 | AR     | CI     |
+|            6 |      1966 | AR     | ES     |
+|           11 |      1930 | AR     | MX     |
+|           11 |      1994 | AR     | GR     |
+|           11 |      2014 | AR     | BA     |
+|           13 |      1990 | AR     | URS    |
+|           16 |      1930 | AR     | US     |
+|           18 |      1966 | AR     | CH     |
+|           20 |      2010 | AR     | KR     |
+|           21 |      2006 | AR     | RS     |
+|           23 |      1974 | AR     | HT     |
+|           27 |      2014 | AR     | IR     |
+|           28 |      1986 | AR     | BG     |
+|           34 |      1978 | AR     | PE     |
+|           38 |      1978 | NL     | AR     |
+|           45 |      1990 | YUG    | AR     |
+|           48 |      1986 | AR     | EN     |
+|           49 |      1986 | AR     | BE     |
+|           49 |      1990 | IT     | AR     |
+|           50 |      2006 | AR     | MX     |
+|           52 |      1986 | AR     | FRG    |
+|           52 |      2010 | AR     | MX     |
+|           55 |      1998 | AR     | EN     |
+|           55 |      2014 | AR     | CH     |
+|           62 |      2014 | NL     | AR     |
++--------------+-----------+--------+--------+
+26 rows in set (0.00 sec)
+
++--------------------+--------------+--------------+
+| Player_Name        | Country_Code | Match_Number |
++--------------------+--------------+--------------+
+| Bruno Martins Indi | NL           |            3 |
+| Paul Verhaegh      | NL           |            3 |
+| Waylon Francis     | CR           |            7 |
+| Lucas Digne        | FR           |           10 |
+| Matt Besler        | US           |           14 |
+| Timothy Chandler   | US           |           14 |
+| Gary Medel         | CL           |           19 |
+| Daryl Janmaat      | NL           |           20 |
+| Azubuike Egwuekwe  | NG           |           28 |
+| Thiago Silva       | BR           |           33 |
+| Carlos Salcido     | MX           |           34 |
+| Cristin Zapata     | CO           |           37 |
+| Jorge Fucile       | UY           |           39 |
+| Steve von Bergen   | CH           |           41 |
+| Joo Pereira        | PT           |           46 |
+| Erik Durm          | DE           |           54 |
+| Thomas Vermaelen   | BE           |           56 |
+| Dante              | BR           |           57 |
+| Kevin Grokreutz    | DE           |           61 |
++--------------------+--------------+--------------+
+19 rows in set (0.01 sec)
+
++------------------------------+-----------+----------------------------------------+
+| Stadium                      | Date_Year | Stadium_Address                        |
++------------------------------+-----------+----------------------------------------+
+|  estadio centenario          |      1930 |  estadio centenario, montevideo        |
+|  stadio nazionale pnf        |      1934 |  stadio nazionale pnf, rome            |
+|  parc des princes            |      1938 |  parc des princes, paris               |
+|  stade olympique de colombes |      1938 |  stade olympique de colombes, paris    |
+|  estádio do maracanã         |      1950 |  estádio do maracanã, rio de janeiro   |
+|  st. jakob stadium           |      1954 |  st. jakob stadium, basel              |
+|  råsunda stadium             |      1958 |  råsunda stadium, solna                |
+|  estadio carlos dittborn     |      1962 |  estadio carlos dittborn, arica        |
+|  goodison park               |      1966 |  goodison park, liverpool              |
+|  estadio azteca              |      1970 |  estadio azteca, mexico city           |
+|  estadio nou camp            |      1970 |  estadio nou camp, león                |
+|  olympiastadion              |      1974 |  olympiastadion, west berlin           |
+|  estadio chateau carreras    |      1978 |  estadio chateau carreras, córdoba     |
+|  estadio la rosaleda         |      1982 |  estadio la rosaleda, málaga           |
+|  nuevo estadio               |      1982 |  nuevo estadio, elche                  |
+|  estadio azteca              |      1986 |  estadio azteca, mexico city           |
+|  estadio cuauhtémoc          |      1986 |  estadio cuauhtémoc, puebla            |
+|  stadio san paolo            |      1990 |  stadio san paolo, naples              |
+|  cotton bowl                 |      1994 |  cotton bowl, dallas                   |
+|  stade de france             |      1998 |  stade de france, saint-denis          |
+|  suwon world cup stadium     |      2002 |  suwon world cup stadium, suwon        |
+|  allianz arena               |      2006 |  allianz arena, münchen                |
+|  olympiastadion              |      2006 |  olympiastadion, west berlin           |
+|  cape town stadium           |      2010 |  cape town stadium, cape town          |
+|  arena fonte nova            |      2014 |  arena fonte nova, salvador (utc-3)    |
++------------------------------+-----------+----------------------------------------+
+25 rows in set (0.03 sec)
+
++---------------------------------+----------+------------+-----------+--------+--------+--------------+--------------+--------+------------------+---------------------+
+| Stadium                         | Date_Day | Date_Month | Date_Year | Team_1 | Team_2 | Team_1_Score | Team_2_Score | Winner | World_Cup_Winner | World_Cup_Runner_Up |
++---------------------------------+----------+------------+-----------+--------+--------+--------------+--------------+--------+------------------+---------------------+
+|  rimnersvallen                  |        8 | June       |      1958 | BR     | AT     |            3 |            0 | BR     | BR               | SE                  |
+|  ullevi                         |       11 | June       |      1958 | BR     | EN     |            0 |            0 | NUL    | BR               | SE                  |
+|  ullevi                         |       15 | June       |      1958 | BR     | URS    |            2 |            0 | BR     | BR               | SE                  |
+|  ullevi                         |       19 | June       |      1958 | BR     | WAL    |            1 |            0 | BR     | BR               | SE                  |
+|  råsunda stadium                |       24 | June       |      1958 | FR     | BR     |            2 |            5 | BR     | BR               | SE                  |
+|  råsunda stadium                |       29 | June       |      1958 | SE     | BR     |            2 |            5 | BR     | BR               | SE                  |
+|  estadio sausalito              |       30 | May        |      1962 | BR     | MX     |            2 |            0 | BR     | BR               | TCH                 |
+|  estadio sausalito              |        2 | June       |      1962 | BR     | TCH    |            0 |            0 | NUL    | BR               | TCH                 |
+|  estadio sausalito              |        6 | June       |      1962 | BR     | ES     |            2 |            1 | BR     | BR               | TCH                 |
+|  estadio sausalito              |       10 | June       |      1962 | BR     | EN     |            3 |            1 | BR     | BR               | TCH                 |
+|  estadio nacional               |       13 | June       |      1962 | BR     | CL     |            4 |            2 | BR     | BR               | TCH                 |
+|  estadio nacional               |       17 | June       |      1962 | BR     | TCH    |            3 |            1 | BR     | BR               | TCH                 |
+|  estadio jalisco                |        3 | June       |      1970 | TCH    | BR     |            1 |            4 | BR     | BR               | IT                  |
+|  estadio jalisco                |        7 | June       |      1970 | EN     | BR     |            0 |            1 | BR     | BR               | IT                  |
+|  estadio jalisco                |       10 | June       |      1970 | RO     | BR     |            2 |            3 | BR     | BR               | IT                  |
+|  estadio jalisco                |       14 | June       |      1970 | BR     | PE     |            4 |            2 | BR     | BR               | IT                  |
+|  estadio jalisco                |       17 | June       |      1970 | UY     | BR     |            1 |            3 | BR     | BR               | IT                  |
+|  estadio azteca                 |       21 | June       |      1970 | BR     | IT     |            4 |            1 | BR     | BR               | IT                  |
+|  stanford stadium               |        4 | July       |      1994 | BR     | US     |            1 |            0 | BR     | BR               | IT                  |
+|  cotton bowl                    |        9 | July       |      1994 | NL     | BR     |            2 |            3 | BR     | BR               | IT                  |
+|  rose bowl                      |       13 | July       |      1994 | SE     | BR     |            0 |            1 | BR     | BR               | IT                  |
+|  rose bowl                      |       17 | July       |      1994 | BR     | IT     |            3 |            2 | BR     | BR               | IT                  |
+|  munsu cup stadium              |        3 | June       |      2002 | BR     | TR     |            2 |            1 | BR     | BR               | DE                  |
+|  jeju world cup stadium         |        8 | June       |      2002 | BR     | CN     |            4 |            0 | BR     | BR               | DE                  |
+|  suwon world cup stadium        |       13 | June       |      2002 | CR     | BR     |            2 |            5 | BR     | BR               | DE                  |
+|  kobe wing stadium              |       17 | June       |      2002 | BR     | BE     |            2 |            0 | BR     | BR               | DE                  |
+|  shizuoka stadium               |       21 | June       |      2002 | EN     | BR     |            1 |            2 | BR     | BR               | DE                  |
+|  saitama stadium                |       26 | June       |      2002 | BR     | TR     |            1 |            0 | BR     | BR               | DE                  |
+|  international stadium yokohama |       30 | June       |      2002 | DE     | BR     |            0 |            2 | BR     | BR               | DE                  |
+|  estádio do maracanã            |       24 | June       |      1950 | BR     | MX     |            4 |            0 | BR     | UY               | BR                  |
+|  estádio do pacaembu            |       28 | June       |      1950 | BR     | CH     |            2 |            2 | NUL    | UY               | BR                  |
+|  estádio do maracanã            |        1 | July       |      1950 | BR     | YUG    |            2 |            0 | BR     | UY               | BR                  |
+|  estádio do maracanã            |        9 | July       |      1950 | BR     | SE     |            7 |            1 | BR     | UY               | BR                  |
+|  estádio do maracanã            |       13 | July       |      1950 | BR     | ES     |            6 |            1 | BR     | UY               | BR                  |
+|  estádio do maracanã            |       16 | July       |      1950 | UY     | BR     |            2 |            1 | UY     | UY               | BR                  |
+|  stade de france                |       10 | June       |      1998 | BR     | SCO    |            2 |            1 | BR     | FR               | BR                  |
+|  stade de la beaujoire          |       16 | June       |      1998 | BR     | MA     |            3 |            0 | BR     | FR               | BR                  |
+|  stade vélodrome                |       23 | June       |      1998 | BR     | NO     |            1 |            2 | NO     | FR               | BR                  |
+|  parc des princes               |       27 | June       |      1998 | BR     | CL     |            4 |            1 | BR     | FR               | BR                  |
+|  stade de la beaujoire          |        3 | July       |      1998 | BR     | DK     |            3 |            2 | BR     | FR               | BR                  |
+|  stade vélodrome                |        7 | July       |      1998 | BR     | NL     |            4 |            2 | BR     | FR               | BR                  |
+|  stade de france                |       12 | July       |      1998 | BR     | FR     |            0 |            3 | FR     | FR               | BR                  |
++---------------------------------+----------+------------+-----------+--------+--------+--------------+--------------+--------+------------------+---------------------+
+42 rows in set (0.00 sec)
+
++-------------------------+--------------+
+| Player_Name             | Country_Code |
++-------------------------+--------------+
+| Helmut Haller           | FRG          |
+| Juan Alberto Schiaffino | UY           |
+| Rivaldo                 | BR           |
++-------------------------+--------------+
+3 rows in set (0.01 sec)
+
++-----------+------------+----------+------------------------------+--------+--------+--------+-----------------+
+| Date_Year | Date_Month | Date_Day | Stadium                      | Team_1 | Team_2 | Winner | Goal_Difference |
++-----------+------------+----------+------------------------------+--------+--------+--------+-----------------+
+|      1974 | June       |       18 |  parkstadion                 | YUG    | ZAI    | YUG    |               9 |
+|      1982 | June       |       15 |  nuevo estadio               | HU     | SV     | HU     |               9 |
+|      1950 | July       |        2 |  estádio independência       | UY     | BO     | UY     |               8 |
+|      2002 | June       |        1 |  sapporo dome                | DE     | SA     | DE     |               8 |
+|      1938 | June       |       12 |  stade du fort carré         | SE     | CU     | SE     |               8 |
+|      1954 | June       |       19 |  st. jakob stadium           | UY     | SCO    | UY     |               7 |
+|      1974 | June       |       19 |  olympiastadion              | HT     | PL     | PL     |               7 |
+|      2010 | Jun        |       21 |  cape town stadium           | PT     | KP     | PT     |               7 |
+|      1934 | May        |       27 |  stadio nazionale pnf        | IT     | US     | IT     |               6 |
+|      1950 | July       |        9 |  estádio do maracanã         | BR     | SE     | BR     |               6 |
+|      1986 | June       |        2 |  estadio sergio león chavez  | URS    | HU     | URS    |               6 |
+|      1978 | June       |        6 |  estadio chateau carreras    | FRG    | MX     | FRG    |               6 |
+|      1978 | June       |       21 |  estadio gigante de arroyito | AR     | PE     | AR     |               6 |
+|      2014 | Jul        |        8 |  estádio mineirão            | BR     | DE     | DE     |               6 |
+|      1938 | June       |        5 |  vélodrome municipal         | HU     | DEI    | HU     |               6 |
+|      2006 | Jun        |       16 |  veltins-arena               | AR     | RS     | AR     |               6 |
+|      1930 | July       |       27 |  estadio centenario          | UY     | YUG    | UY     |               5 |
+|      1962 | June       |        3 |  estadio el teniente         | HU     | BG     | HU     |               5 |
+|      1930 | July       |       26 |  estadio centenario          | AR     | US     | AR     |               5 |
+|      1986 | June       |        8 |  estadio neza 86             | DK     | UY     | DK     |               5 |
++-----------+------------+----------+------------------------------+--------+--------+--------+-----------------+
+20 rows in set (0.01 sec)
+
++------------------+--------------+
+| Player_Name      | Country_Code |
++------------------+--------------+
+| Araken           | BR           |
+| Brito            | BR           |
+| Carlos Alberto   | BR           |
+| Clodoaldo        | BR           |
+| Coutinho         | BR           |
+| Dequinha         | BR           |
+| Edu              | BR           |
+| Gilmar           | BR           |
+| Joel             | BR           |
+| Juvenal          | BR           |
+| Lenidas          | BR           |
+| Mauro            | BR           |
+| Orlando          | BR           |
+| Paulo Czar       | BR           |
+| Paulo Henrique   | BR           |
+| Pel              | BR           |
+| Pepe             | BR           |
+| Scrates          | BR           |
+| Walter           | BR           |
+| Zico             | BR           |
+| Zito             | BR           |
+| Johan Rodrguez   | MX           |
+| Rodolfo Rodrguez | UY           |
++------------------+--------------+
+23 rows in set (0.00 sec)
+
++--------------+
+| Country_Code |
++--------------+
+| BR           |
++--------------+
+1 row in set (0.00 sec)
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
++------------------+--------------+
+| Player_Name      | Country_Code |
++------------------+--------------+
+| Russinho         | BR           |
+| Rivaldo          | BR           |
+| Oreco            | BR           |
+| Batatais         | BR           |
+| Marinho Chagas   | BR           |
+| Willy Busch      | DE           |
+| Maurizio Gaudino | DE           |
+| Mario Gtze       | DE           |
+| KarlHeinz Riedle | DE           |
+| Bodo Illgner     | DE           |
++------------------+--------------+
+10 rows in set (0.00 sec)
+
++--------------+-------------+
+| Player_Name  | Player_Role |
++--------------+-------------+
+| Pedro Uralde | FW          |
++--------------+-------------+
+1 row in set (0.00 sec)
+
++--------------+-----------+--------+--------+
+| Match_Number | Date_Year | Team_1 | Team_2 |
++--------------+-----------+--------+--------+
+|            2 |      2014 | AR     | NL     |
++--------------+-----------+--------+--------+
+1 row in set (0.00 sec)
+
++----------------+--------------+--------------+
+| Player_Name    | Country_Code | Match_Number |
++----------------+--------------+--------------+
+| Marinho Chagas | BR           |            3 |
+| Marinho Chagas | BR           |            3 |
++----------------+--------------+--------------+
+2 rows in set (0.00 sec)
+
++-------------------------+-----------+-------------------------------------+
+| Stadium                 | Date_Year | Stadium_Address                     |
++-------------------------+-----------+-------------------------------------+
+|  stadio giovanni berta  |      2010 |  stadio giovanni berta, florence    |
+|  estadio parque central |      2014 |  estadio parque central, montevideo |
++-------------------------+-----------+-------------------------------------+
+2 rows in set (0.00 sec)
+
++-------------------------+----------+------------+-----------+--------+--------+--------------+--------------+--------+------------------+---------------------+
+| Stadium                 | Date_Day | Date_Month | Date_Year | Team_1 | Team_2 | Team_1_Score | Team_2_Score | Winner | World_Cup_Winner | World_Cup_Runner_Up |
++-------------------------+----------+------------+-----------+--------+--------+--------------+--------------+--------+------------------+---------------------+
+|  estadio pocitos        |       13 | July       |      2014 | BR     | DE     |            1 |            4 | DE     | DE               | AR                  |
+|  estadio parque central |       16 | July       |      2014 | AR     | DE     |            3 |            5 | DE     | DE               | AR                  |
++-------------------------+----------+------------+-----------+--------+--------+--------------+--------------+--------+------------------+---------------------+
+2 rows in set (0.01 sec)
+
++-------------+--------------+
+| Player_Name | Country_Code |
++-------------+--------------+
+| Willy Busch | DE           |
++-------------+--------------+
+1 row in set (0.00 sec)
+
++-----------+------------+----------+--------------------------+--------+--------+--------+-----------------+
+| Date_Year | Date_Month | Date_Day | Stadium                  | Team_1 | Team_2 | Winner | Goal_Difference |
++-----------+------------+----------+--------------------------+--------+--------+--------+-----------------+
+|      2014 | July       |       13 |  estadio pocitos         | BR     | DE     | DE     |               3 |
+|      2010 | July       |       17 |  stadio giovanni berta   | ES     | NL     | ES     |               2 |
+|      2010 | July       |       15 |  stadio benito mussolini | BR     | NL     | NL     |               2 |
+|      2014 | July       |       14 |  estadio parque central  | AR     | NL     | AR     |               1 |
+|      2010 | July       |       14 |  stadio littoriale       | ZA     | ES     | ES     |               1 |
+|      2014 | July       |       15 |  estadio centenario      | BR     | NL     | BR     |               1 |
++-----------+------------+----------+--------------------------+--------+--------+--------+-----------------+
+6 rows in set (0.00 sec)
+
++---------------------+--------------+
+| Player_Name         | Country_Code |
++---------------------+--------------+
+| Leandro Cufr        | AR           |
+| Norberto Boggio     | AR           |
+| Jnior Baiano        | BR           |
+| Mario Gtze          | DE           |
+| Maurizio Gaudino    | DE           |
+| Willy Busch         | DE           |
+| Rafael Martn Vzquez | ES           |
+| Eljero Elia         | NL           |
+| Surprise Moriri     | ZA           |
++---------------------+--------------+
+9 rows in set (0.00 sec)
+
++--------------+
+| Country_Code |
++--------------+
+| BR           |
+| NL           |
++--------------+
+2 rows in set (0.00 sec)
+
+mysql> tee update.log
